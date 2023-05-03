@@ -18,14 +18,12 @@
 ### On the side
 
 - Full stack application for an upcoming osu! tournament. (Active development)
-  - SSR Frontend 1: A custom fork of [oth-verification](https://github.com/MiraiSubject/oth-verification) for player authentication, verification and validation 
-  - Frontend 2: Sveltekit (mostly SPA)
-  - Backend: Fastify (API & Authentication)
-  - Database: PostgreSQL with Prisma in the backend (Storage for Teams, Players and Positions)
+  - Web application 1: A custom fork of [oth-verification](https://github.com/MiraiSubject/oth-verification) for player authentication, verification and validation 
+  - Web application 2: Sveltekit app with authentication, public information, an admin panel and player dashboard
+  - Database: PostgreSQL (bit.io) with Prisma (with Data Proxy) in the backend (Storage for Teams, Players and Positions)
   - Object Storage: Cloudflare R2 (for team logos)
   - Language(s): TypeScript
-  - DevOps: GitHub Actions
-  - Deployed using Docker
+  - Deployed using [Vercel](https://vercel.com/)
 
 - Cosette: Full stack Tournament Management System (TMS) (Active development)
   - SSR Application: Nuxt.js v3
