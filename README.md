@@ -3,7 +3,7 @@
 
 - 🖥️ Full stack software engineer
 - 📆 12 years of experience doing software development (have been learning since I was 13)
-- 🇯🇵 Studying Japanstudies at Leiden University (currently BA2)
+- 🇯🇵 Studying Japanstudies, with a minor in Data Science and Artificial Intelligence at Leiden University (currently BA3)
 - 🎁 All my open-source work is available here on GitHub
 
 ## What I'm up to
@@ -11,8 +11,9 @@
 ### Work
 
 - Frontend Development for Ovotrack
-  - Framework: Vue.js 2.7
-  - Tooling: Self-made config with Webpack 5 and a community-made web component builder for Vue 2.x with added TypeScript support incorporated in [this builder](https://github.com/MiraiSubject/ixon-vue2-builder)
+  - Framework: Next.js 13 (Was Vue.js 2.7 & Sveltekit 1.x)
+  - Tooling: Custom next.js config using a build middleware to dynamically set the base path depending on the target environment and a script to modify paths to a set URL after the bundle has been made (yes, this Next.js app will land on a platform that prefers relative paths, but Next.js doesn't support that scenario)
+  - Previous Tooling: Self-made config with Webpack 5 and a community-made web component builder for Vue 2.x with added TypeScript support incorporated in [this builder](https://github.com/MiraiSubject/ixon-vue2-builder)
   - Language(s): Javascript, TypeScript
 
 ### On the side
