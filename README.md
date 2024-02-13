@@ -2,7 +2,7 @@
 ## About me
 
 - 🖥️ Full stack software engineer
-- 📆 12 years of experience doing software development (have been learning since I was 13)
+- 📆 13 years of experience doing software development (have been learning since I was 13)
 - 🇯🇵 Studying Japanstudies, with a minor in Data Science and Artificial Intelligence at Leiden University (currently BA3)
 - 🎁 All my open-source work is available here on GitHub
 
@@ -15,16 +15,9 @@
   - Tooling: Custom next.js config using a build middleware to dynamically set the base path depending on the target environment and a script to modify paths to a set URL after the bundle has been made (yes, this Next.js app will land on a platform that prefers relative paths, but Next.js doesn't support that scenario)
   - Previous Tooling: Self-made config with Webpack 5 and a community-made web component builder for Vue 2.x with added TypeScript support incorporated in [this builder](https://github.com/MiraiSubject/ixon-vue2-builder)
   - Language(s): Javascript, TypeScript
+  - Notable achievements: Added custom tooling to streamline the development and deployment processes for the unconventional deployment target. 
 
 ### On the side
-
-- Full stack application for an upcoming osu! tournament. (Active development)
-  - Web application 1: A custom fork of [oth-verification](https://github.com/MiraiSubject/oth-verification) for player authentication, verification and validation 
-  - Web application 2: Sveltekit app with authentication, public information, an admin panel and player dashboard
-  - Database: PostgreSQL (bit.io) with Prisma (with Data Proxy) in the backend (Storage for Teams, Players and Positions)
-  - Object Storage: Cloudflare R2 (for team logos)
-  - Language(s): TypeScript
-  - Deployed using [Vercel](https://vercel.com/)
 
 - Cosette: Full stack Tournament Management System (TMS) (Active development)
   - SSR Application: Nuxt.js v3
@@ -56,6 +49,14 @@
   - DevOps: GitHub Actions
   - Deployed using Docker
   - Language(s): TypeScript
+
+- Full stack application for an osu! tournament.
+  - Web application 1: A custom fork of [oth-verification](https://github.com/MiraiSubject/oth-verification) for player authentication, verification and validation 
+  - Web application 2: Sveltekit app with authentication, public information, an admin panel and player dashboard
+  - Database: PostgreSQL (Neon) with Prisma (with Data Proxy) in the backend (Storage for Teams, Players and Positions)
+  - Object Storage: Cloudflare R2 (for team logos)
+  - Language(s): TypeScript
+  - Deployed using [Vercel](https://vercel.com/)
 
 TBD
 
