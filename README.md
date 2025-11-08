@@ -2,34 +2,35 @@
 ## About me
 
 - 🖥️ Full stack software engineer
-- 📆 13 years of experience doing software development (have been learning since I was 13)
-- 🇯🇵 Studying Japanstudies, with a minor in Data Science and Artificial Intelligence at Leiden University (currently BA3)
-- 🎁 All my open-source work is available here on GitHub
+- 📆 14 years of experience doing software development (have been learning since I was 13)
+- 🇯🇵 Graduated from Japanstudies, together with a minor in Data Science and Artificial Intelligence at Leiden University
 
 ## What I'm up to
 
 ### Work
 
 - Frontend Development for Ovotrack
-  - Framework: Next.js 13 (Was Vue.js 2.7 & Sveltekit 1.x)
-  - Tooling: Custom next.js config using a build middleware to dynamically set the base path depending on the target environment and a script to modify paths to a set URL after the bundle has been made (yes, this Next.js app will land on a platform that prefers relative paths, but Next.js doesn't support that scenario)
-  - Previous Tooling: Self-made config with Webpack 5 and a community-made web component builder for Vue 2.x with added TypeScript support incorporated in [this builder](https://github.com/MiraiSubject/ixon-vue2-builder)
-  - Language(s): Javascript, TypeScript
-  - Notable achievements: Added custom tooling to streamline the development and deployment processes for the unconventional deployment target. 
+  - Frameworks: Next.js 14 & Sveltekit 2
+  - Tooling:
+    - Custom next.js config using a build middleware to dynamically set the base path depending on the target environment and a script to modify paths to a set URL after the bundle has been made (yes, this Next.js app will land on a platform that prefers relative paths, but Next.js doesn't support that scenario)
+    - Regular Sveltekit app deployed a docker container
+  - Previous Tooling:
+    - Self-made config with Webpack 5 and a community-made web component builder for Vue 2.x with added TypeScript support incorporated in [this builder](https://github.com/MiraiSubject/ixon-vue2-builder)
+  - Language(s): TypeScript, React, Vue, Svelte
+  - Notable achievements:
+    - Added custom tooling to streamline the development and deployment processes for the unconventional deployment target.
+    - Help improve frontend development processes w.r.t. teamwork, code style and programming patterns.
 
 ### On the side
 
 - Cosette: Full stack Tournament Management System (TMS) (Active development)
-  - SSR Application: Nuxt.js v3
-  - Backend (tentative): Express.js with GraphQL (API & Authentication)
-  - Database: PostgreSQL with Prisma
+  - SSR Application: Svelte 5
+  - Backend: Sveltekit 2
+  - Database: PostgreSQL with Drizzle
   - Object Storage: Cloudflare R2
-  - Language(s): TypeScript, possibly Rust
+  - Language: TypeScript
 
-- Yuzu: Multi-provider anime list manager for iOS (On-hold)
-  - Native application originally written using UIKit
-  - Currently undergoing a transformation to SwiftUI
-  - As of today, sucessfully interfaces with Anilist and Kitsu
+- Yuzu: Multi-provider anime list manager and sync tool (TBD)
 
 ## Projects I've worked on
 - Student app for my high school (2012)
